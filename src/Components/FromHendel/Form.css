@@ -1,0 +1,29 @@
+Form{
+    color:#fff;
+
+}
+div{
+    margin-bottom: 18px;
+}
+input{
+    outline: none;
+    border: none;
+    width: 250px;
+    border-radius: 5px;
+    padding:5px 10px;
+    font-size: 18px;
+}
+.btn{
+    background: aquamarine;
+    border: none;
+    padding:7px 15px;
+    font-weight: 600;
+    transition:all .3s ease;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.btn:hover{
+    background: #66dcb5;
+    color:#222;
+
+}
