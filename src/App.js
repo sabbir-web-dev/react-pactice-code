@@ -9,9 +9,8 @@ function App() {
   return (
     <div className="wrap">
 
-
     <Toggole />
-    
+    <AlinOne />
     </div>
   );
 }
