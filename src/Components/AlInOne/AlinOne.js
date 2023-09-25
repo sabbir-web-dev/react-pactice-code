@@ -9,11 +9,12 @@ import Baind from '../Bind/Baind'
 import Count from '../Count/Count'
 import FormP from '../FromHendel-pactice/FormP'
 import TodoApp from "../TodoApp/TodoBody/TodoApp"
-
+import FaqWrap from "../Faqs/Home/FaqWrap"
 
 export default function AlinOne() {
   return (
     <div>
+      <FaqWrap />
         <TodoApp />
         <FormP />
         <Count />
