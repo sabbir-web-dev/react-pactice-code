@@ -1,0 +1,15 @@
+.header{
+    background: #daff9e;
+    padding: 10px 5%;
+    font-size: 18px;
+}
+.header h2{
+    font-weight: 600;
+}
+.Footer{
+    text-align: center;
+    background: #daff9e;
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+}

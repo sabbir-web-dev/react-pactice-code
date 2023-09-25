@@ -10,10 +10,20 @@ import Count from '../Count/Count'
 import FormP from '../FromHendel-pactice/FormP'
 import TodoApp from "../TodoApp/TodoBody/TodoApp"
 import FaqWrap from "../Faqs/Home/FaqWrap"
+import AllSet from "../Input-to-Card/HeaderAndFooter/AllSet"
+import Toggle from "../Toggle/Toggole"
+// import UseEfectPactice from '../UseEfect/UseEfectPactice'
+import LodingAndErr from '../LoddingAndErrr/LodingAndErr'
+import UseCustomHook from '../CustomHookUse/UseCustomHook'
 
 export default function AlinOne() {
   return (
     <div>
+      <UseCustomHook />
+      <LodingAndErr /> 
+      {/* <UseEfectPactice /> */} 
+      <AllSet />
+      <Toggle />
       <FaqWrap />
         <TodoApp />
         <FormP />
