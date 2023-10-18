@@ -11,6 +11,7 @@ function App() {
     <div className="wrap">
  
 
+
     <AlinOne /> 
     </div>
   );

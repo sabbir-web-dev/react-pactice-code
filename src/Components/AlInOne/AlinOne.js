@@ -15,10 +15,13 @@ import Toggle from "../Toggle/Toggole"
 // import UseEfectPactice from '../UseEfect/UseEfectPactice'
 import LodingAndErr from '../LoddingAndErrr/LodingAndErr'
 import UseCustomHook from '../CustomHookUse/UseCustomHook'
+import ReactToastify from '../ReactToastify/ReactToastify'
 
 export default function AlinOne() {
   return (
     <div>
+
+      <ReactToastify />
       <UseCustomHook />
       <LodingAndErr /> 
       {/* <UseEfectPactice /> */} 
