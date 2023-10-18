@@ -16,11 +16,12 @@ import Toggle from "../Toggle/Toggole"
 import LodingAndErr from '../LoddingAndErrr/LodingAndErr'
 import UseCustomHook from '../CustomHookUse/UseCustomHook'
 import ReactToastify from '../ReactToastify/ReactToastify'
+import CountryHome from '../CountryApp/CountryHome'
 
 export default function AlinOne() {
   return (
     <div>
-
+      <CountryHome />
       <ReactToastify />
       <UseCustomHook />
       <LodingAndErr /> 
