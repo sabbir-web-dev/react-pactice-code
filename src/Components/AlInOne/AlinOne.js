@@ -17,10 +17,12 @@ import LodingAndErr from '../LoddingAndErrr/LodingAndErr'
 import UseCustomHook from '../CustomHookUse/UseCustomHook'
 import ReactToastify from '../ReactToastify/ReactToastify'
 import CountryHome from '../CountryApp/CountryHome'
+import DinamicStyle from '../../DinamicStyle/DinamicStyle'
 
 export default function AlinOne() {
   return (
     <div>
+      <DinamicStyle />
       <CountryHome />
       <ReactToastify />
       <UseCustomHook />
