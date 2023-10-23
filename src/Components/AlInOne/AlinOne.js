@@ -12,22 +12,30 @@ import TodoApp from "../TodoApp/TodoBody/TodoApp"
 import FaqWrap from "../Faqs/Home/FaqWrap"
 import AllSet from "../Input-to-Card/HeaderAndFooter/AllSet"
 import Toggle from "../Toggle/Toggole"
-// import UseEfectPactice from '../UseEfect/UseEfectPactice'
 import LodingAndErr from '../LoddingAndErrr/LodingAndErr'
 import UseCustomHook from '../CustomHookUse/UseCustomHook'
 import ReactToastify from '../ReactToastify/ReactToastify'
 import CountryHome from '../CountryApp/CountryHome'
-import DinamicStyle from '../../DinamicStyle/DinamicStyle'
+import DinamicStyle from '../DinamicStyle/DinamicStyle'
+import UseEfectPactice from './../UseEfect/UseEfectPactice';
+import PropsType from '../PropsType/PropsType'
+import RefHook from '../RefExemple/RefHook'
+import RefhookFComponents from '../RefExemple/RefhookFComponents'
+import ReduceHook from "../UseReducer/ReduceHook"
 
 export default function AlinOne() {
   return (
     <div>
+      <ReduceHook />
+      <RefhookFComponents />
+      <RefHook />
+      <PropsType />
       <DinamicStyle />
       <CountryHome />
       <ReactToastify />
       <UseCustomHook />
       <LodingAndErr /> 
-      {/* <UseEfectPactice /> */} 
+      <UseEfectPactice />
       <AllSet />
       <Toggle />
       <FaqWrap />

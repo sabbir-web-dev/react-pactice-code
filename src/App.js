@@ -2,8 +2,10 @@ import "./App.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
-
 import AlinOne from "./Components/AlInOne/AlinOne"; 
+
+
+
 
 
 function App() {
@@ -11,10 +13,10 @@ function App() {
   return (
     <div className="wrap">
 
-    <AlinOne /> 
+    {/* <AlinOne />  */}
     </div>
   );
 }
 
-//add a commit
+
 export default App;
