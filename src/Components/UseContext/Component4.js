@@ -11,4 +11,4 @@ function Component4() {
   )
 }
 
-export default Component4
+export default Component4;
