@@ -22,10 +22,14 @@ import PropsType from '../PropsType/PropsType'
 import RefHook from '../RefExemple/RefHook'
 import RefhookFComponents from '../RefExemple/RefhookFComponents'
 import ReduceHook from "../UseReducer/ReduceHook"
+import PropBuling from '../PropBulding/PropBuling'
+import UseContextComponents from '../UseContext/UseContext'
 
 export default function AlinOne() {
   return (
     <div>
+      <UseContextComponents />
+      <PropBuling />
       <ReduceHook />
       <RefhookFComponents />
       <RefHook />

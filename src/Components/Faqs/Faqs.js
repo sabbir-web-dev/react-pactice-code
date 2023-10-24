@@ -16,7 +16,7 @@ export default function Faqs(props) {
             <span>{faqAns ? "-" : "+"}</span>
         </div>
         {
-            faqAns && <p><small>{answer}</small></p>
+            faqAns && <p style={{textAlign: "start"}}><small>{answer}</small></p>
         }
     </div>
   )

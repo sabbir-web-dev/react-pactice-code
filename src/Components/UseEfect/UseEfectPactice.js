@@ -20,6 +20,7 @@ export default function UseEfectPactice() {
         .then(data => {
           setNames(data)
         })
+        .catch(err => console.log(err))
   return (
     <div>
       <h2>Count:{count}</h2>

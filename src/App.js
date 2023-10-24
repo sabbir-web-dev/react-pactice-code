@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="wrap">
 
-    {/* <AlinOne />  */}
+    <AlinOne /> 
     </div>
   );
 }

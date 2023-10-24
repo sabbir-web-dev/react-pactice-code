@@ -1,10 +1,12 @@
-import React, { useState } from 'react'
+import React from 'react'
 
 function Search(props) {
-  const [input,setInput] =useState();
+
 
   const hendleChange = (e)=>{
     props.getSearcValue(e.target.value);
+  
+    
   }
   return (
     <div>
@@ -13,7 +15,6 @@ function Search(props) {
        id="" 
        placeholder='Search Country'
        onChange={hendleChange}
-       value={input}
        />
     </div>
   )
