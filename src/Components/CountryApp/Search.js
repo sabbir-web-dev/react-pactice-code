@@ -11,8 +11,6 @@ function Search(props) {
   return (
     <div>
       <input type="text"
-       name="" 
-       id="" 
        placeholder='Search Country'
        onChange={hendleChange}
        />

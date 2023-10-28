@@ -12,8 +12,8 @@ function App() {
 
   return (
     <div className="wrap">
-      <MamoUseCallbacke />
-    {/* <AlinOne />  */}
+      {/* <MamoUseCallbacke /> */}
+    <AlinOne /> 
     </div>
   );
 }

@@ -25,10 +25,12 @@ import ReduceHook from "../UseReducer/ReduceHook"
 import PropBuling from '../PropBulding/PropBuling'
 import UseContextComponents from '../UseContext/UseContext'
 import UseContextProject from '../UseContextProject/UseContextProject'
+import Routess from '../ReactRauting/RauteApp/Routes'
 
 export default function AlinOne() {
   return (
     <div>
+      <Routess />
       <UseContextProject />
       <UseContextComponents />
       <PropBuling />

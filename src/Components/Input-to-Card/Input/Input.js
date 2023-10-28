@@ -41,7 +41,6 @@ export default function Input(props) {
             <input 
             type="email" 
             name="email" 
-            id="" 
             onChange={formik.handleChange}
             value={formik.values.email}
             required />

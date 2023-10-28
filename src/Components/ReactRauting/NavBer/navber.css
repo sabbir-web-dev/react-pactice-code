@@ -1,0 +1,20 @@
+nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:80px;
+  background: #232323;
+  gap:10px;
+}
+.nav-link{
+  color:#fff;
+  text-decoration: none;
+  transition: .3s ease;
+  font-size: 17px;
+}
+.nav-link:hover{
+  color:#f57632;
+}
+nav .active{
+  color:aqua
+}

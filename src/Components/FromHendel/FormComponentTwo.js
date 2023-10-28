@@ -31,7 +31,7 @@ export default function FormComponentTwo() {
 
   return (
     <>
-      <form action="" onSubmit={submitHendel}>
+      <form onSubmit={submitHendel}>
         <div>
           <label htmlFor="name">Name:</label> <br />
           <input
